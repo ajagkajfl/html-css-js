@@ -1,0 +1,195 @@
+/* main */
+.main {
+    margin-top: 30px;
+}
+.main-left {
+    width: 770px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.main-right {
+    width: 465px;
+    padding-bottom: 40px;
+} 
+.title {
+    height: 37px;
+    border-bottom: 2px solid #e87b1c;
+}
+.title li {
+    float: left;
+    color: #000;
+    font-size: 26px;
+    margin-right: 50px;
+    padding: 0 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+/* css用法，这里改用js，为了练习js
+.title li:hover {
+    background-color: #e87b1c;
+} */
+.newcon {
+    margin-top: 20px;
+    clear: both;
+}
+.newcon-left {
+    width: 270px;
+    height: 200px;
+}
+.newcon-left img {
+    width: 270px;
+    height: 200px;
+}
+.newcon-right {
+    width: 498px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.newcon-right a {
+    display: inline-block;
+    width: 100%;
+    height: 66px;
+    text-align: center;
+    line-height: 66px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #055481;
+}
+.newcon-right p {
+    width: 480px;
+    margin-top: 12px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #929292;
+    line-height: 31px;
+}
+.new-list {
+    clear: both;
+    /* padding-top: 5px; */
+    border-bottom: 2px solid #e87b1c;
+}
+.new-list li a {
+    font-size: 15px;
+    color: #000;
+}
+.new-list li {
+    margin-bottom: 20px;
+}
+.new-list li a:hover{
+    color: #0093dd;
+}
+.time {
+    float: right;
+    color: #b6b6b6;
+    font-size: 15px;
+}
+.more {
+    float: right;
+    font-size: 15px;
+    color: #000;
+    padding: 10px 0;
+}
+.more:hover{ 
+    color: #0093dd;
+}
+.main-right .new-list {
+    border-bottom: 0;
+}
+.main-right .title {
+    float: left;
+    width: 100%;
+    color: #000;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.title span {
+    margin-left: 10px;
+}
+.title-list {
+    background-color: #80b3e0;
+    height: 66px;
+    color: #1d1d21;
+}
+.new-list ul {
+    clear: both;
+    margin-top: 25px;
+}
+.title-list a {
+    width: 380px;
+    font-size: 19px;
+    color: #1d1d21;
+    line-height: 66px;
+    margin-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.month-list {
+    color: #1d1d21;
+    width: 66px;
+    height: 66px;
+    background-color: #f8c300;
+    text-align: center;
+}
+.month-top {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.day-bottom {
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+/* banner */
+.banner {
+    height: 430px;
+    background-color: #055481;
+}
+.focus {
+    position: relative;
+    width: 1280px;
+    height: 430px;
+    overflow: hidden;
+}
+.focus ul {
+    position: absolute; 
+    left: 0;
+    top: 0;
+    width: 600%;
+}
+.focus ul li {
+    float: left;
+}
+.focus img {
+    width: 1280px;
+    height: 430px;
+}
+.banner-bottom {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(74, 58, 59,.8)
+}
+.focus ol {
+    position: absolute;
+    bottom: 17px;
+    right: 200px;
+}
+.focus ol li {
+    float: left;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    background-color: #fff;
+}
+.focus ol .current {
+    width: 12px;
+    height: 12px;
+    /* 使背景颜色变透明 */
+    background-color:transparent;
+}
